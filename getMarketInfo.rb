@@ -255,7 +255,7 @@ Capybara.current_driver = :poltergeist
 #JavascriptDriver(default:Selenium)
 Capybara.javascript_driver = :poltergeist
 #target site
-Capybara.app_host = %q|http://info.finance.yahoo.co.jp/fx/marketcalendar|
+Capybara.app_host = %q|https://info.finance.yahoo.co.jp/fx/marketcalendar/|
 #ajax_waiting time(seconds)
 Capybara.default_wait_time = 5
 #hidden_access(default:true ,unconcerned with changing the DOM with javascript)
