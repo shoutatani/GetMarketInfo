@@ -170,9 +170,9 @@ class Crawler
 								# get the event's rating
 								if has_css?(".icoRating3")
 									event_rate = 3
-								elsif has_css?("icoRating2")
+								elsif has_css?(".icoRating2")
 									event_rate = 2
-								elsif has_css?("icoRating1")
+								elsif has_css?(".icoRating1")
 									event_rate = 1
 								else
 									event_rate = 0
