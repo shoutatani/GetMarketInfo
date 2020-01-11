@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <settings>
-	<getDays>3</getDays>
+	<getDays>1</getDays>
 	<getImportance>3</getImportance>
 </settings>
